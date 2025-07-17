@@ -33,9 +33,7 @@ arr3 = arr1.reshape(3, -1)
 arr4 = arr2.reshape(4, -1)
 arr5 = arr2.reshape(2, -1)
 arr6 = arr2.reshape(3, -1)
-arr7 = arr2.reshape(-1, 4) # Numpy predicts and fixes number of rows
-
-
+arr7 = arr2.reshape(-1, 4) 
 print('Arr1:\n', arr1)
 print('Arr2:\n', arr2)
 print('Arr3:\n', arr3)
